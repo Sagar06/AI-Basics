@@ -2,7 +2,7 @@
 
 import express from "express";
 import { todos, createTodo, deleteTodo } from "./store.js";
-import "dotenv/config.js"; // Load environment variables from .env file
+import "dotenv/config"; // Load environment variables from .env file
 
 import { serve } from "inngest/express";
 import { inngest } from "./inngest/client.js";
