@@ -163,9 +163,7 @@ node 11-inngest/server.js
 - Secret management (use SecureString in production)
 - Database persistence (replace in-memory store)
 
-## 📝 License
 
-ISC
 
 ## 🔗 Resources
 
