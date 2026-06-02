@@ -32,6 +32,7 @@ const response = await client.chat.completions.create({
 
 // console.log(response)
 console.log(response.choices[0].message.content); // Log the content of the AI's response
+//choices
 //how many tokens were used in the response
 const usage_stats = {
   prompt_tokens: response.usage.prompt_tokens,
